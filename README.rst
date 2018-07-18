@@ -13,17 +13,21 @@ Toggles keys A, B, etc. in prior stroke. The keys are written with their implici
 Examples:
 
 ``=toggle_key:S-``
+
 This toggles the S-key at the start of steno order in the prior stroke. For instance, STAR becomes TAR, and RAU becomes SRAU.
 
 ``=toggle_key:*``
+
 This mimics the effect of the {*} macro (also known as =toggle_asterisk). Note the absense of a hyphen.
 
 ``=toggle_key:R-,-R``
+
 This toggles both R-keys in steno order. For instance, if the preceeding stroke was HRUF, this macro replaces that with HUFR.
 
 **STROKE_NEGATIVE**
 
 ``=stroke_negative``
+
 Toggles ALL keys in steno order, effectively creating a "negative" stroke. I added this for the lols, but maybe someone will find it useful.
 
 **============NOTES============**
