@@ -5,7 +5,7 @@ from plover.steno import Stroke
 from plover import system
 
 def toggle_key(translator, stroke, cmdline):
-    # Toggle key of previous stroke
+    # Toggle keys of previous stroke
     toggles = [key.strip().replace(" ","") for key in cmdline.split(',')]
     translations = translator.get_state().translations
     if not translations:
@@ -25,7 +25,7 @@ def toggle_key(translator, stroke, cmdline):
     translator.translate_stroke(Stroke(keys))
 
 def stroke_negative(translator, stroke, cmdline):
-    # Toggle ALL key of previous stroke
+    # Toggle ALL keys of previous stroke
     translations = translator.get_state().translations
     if not translations:
         return
