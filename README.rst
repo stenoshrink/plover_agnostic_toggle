@@ -28,7 +28,7 @@ This toggles both R-keys in steno order. For instance, if the preceeding stroke 
 
 ``=stroke_negative``
 
-Toggles ALL keys in steno order, effectively creating a "negative" stroke. I added this for the lols, but maybe someone will find it useful.
+Toggles ALL keys in steno order, effectively creating a "negative" stroke. I don't know why this would be useful, but maybe someone will find it so.
 
 **============NOTES============**
 
